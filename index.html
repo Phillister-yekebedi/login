@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Project</title>
+</head>
+<style> 
+body{
+    font-family: 'Lobster', cursive;
+}
+form{
+    width: 60%;
+    align: center;
+}
+legend{
+    width: 70px;
+    padding: 2px;
+    margin-left: 50%, 35px, 8px;
+    display: block;
+
+}
+input{
+border-color: blue;
+}
+label{
+    color: black;
+}
+p{
+    color: blue;
+}
+select{
+    color: black;
+}
+
+</style>
+<body>
+    <strong>Email Logins</strong>
+    <form>
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <p>Enter your credentials</p>
+        <label for="firstname"> Firstname</label><br>
+        <input type="text" name="Firstname" placeholder="Enter your firstname ">
+        <br>
+        <br>
+        <label for="lastname">lastname</label><br>
+        <input type="text" name="Lastname" placeholder="Enter your lastname">
+        <br>
+        <br>
+        <label for="age">Age</label><br>
+        <input type="number" name="Age" placeholder="Enter your age">
+        <br>
+        <br>
+        <label for="d.o.b">D.O.B</label><br>
+        <input type="date" name="D.O.B">
+        <br>
+        <br>
+        <label for="email">Email</label><br>
+        <input type="text" name="Email" placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="password">password</label><br>
+        <input type="text" name="password" placeholder="Enter your password">
+        <br>
+        <br>
+        Select Gender;
+        <label for="gender">Male</label>
+        <input type="radio" name="Gender" placeholder="Enter your gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="Female" placeholder="Enter your gender">
+        <br>
+        <br>
+        <label for="address">Address</label><br>
+        <textarea name="address" placeholder="Enter your Address" cols="30" rows="3"></textarea>
+        <br>
+        <br>
+        <label for="country">Country:</label><br>
+        <select name="country" id="Enter your country">
+        <option value="Kenya">Kenya</option>
+        <option value="Tanzania">Tanzania</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Sudan">Sudan</option>
+        <option value="Rwanda">Rwanda</option>
+    </select>
+</fieldset>
+</form>
+</body>
+</html>
